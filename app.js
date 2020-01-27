@@ -2,10 +2,10 @@ require('dotenv').config()
 var Twit = require('twit')
 
 var T = new Twit({
-  consumer_key:process.env.CONSUMER_KEY,
-  consumer_secret:process.env.CONSUMER_SECRET,
-  access_token:process.env.ACCESS_TOKEN,
-  access_token_secret:process.env.ACCESS_TOKEN_SECRET
+  consumer_key:"DFfiLui0GCOrUYDNoXZNRjMih",
+  consumer_secret:"aVncAF41izhjupisgjslu6cOczxd1AfAOiLeRVjeOanRTzP0jx",
+  access_token:"944356459676135424-aoO8ZxwXAlM2btqniJ0N14ZlKjMdHbh",
+  access_token_secret:"pmRdzRO4mYNCPRvAC3ThXE6NkI9yYV2vQQTVfdx26Jmxt"
 })
 
 const handle = 'Think_about_it_bot'
